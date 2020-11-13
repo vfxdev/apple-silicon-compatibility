@@ -19,6 +19,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
   - [Developer](#-developer-apps) | [Virtualization](#-virtualization) | [Frameworks](#-frameworks) | [Languages](#-languages)
 
 ### Browser
+
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |Chrome|⛔️|🔄|||Depends on Chromium, see [🧩 Frameworks](#-frameworks)|
@@ -33,6 +34,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Whatsapp|⛔️|🔄|||Depends on Electron, see [🧩 Frameworks](#-frameworks)|
 
 ### Graphics
+
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |Sketch|⛔️|🔄||||
@@ -40,17 +42,20 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Adobe Photoshop|⛔️|✓||||
 
 ### Video
+
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |FFmpeg|✓|🔄|4.3.1||Builds according to [this report](http://www.ffmpeg-archive.org/FFmpeg-on-Apple-Silicon-Success-td4693516.html), but no binary builds available yet.|
 |VLC|⛔️|🔄||||
 
 ### Audio
+
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |Spotify|⛔️|🔄|||Depends on Electron, see [🧩 Frameworks](#-frameworks)|
 
 ### Utilities
+
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |Arq Backup|⛔️|🔄|||||
@@ -67,13 +72,16 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Tower|✓|🔄|6.0||https://www.git-tower.com/blog/tower-mac-6|
 |Insomnia|⛔️|🔄|||Depends on Electron|
 |Homebrew|⛔️|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
+
 ### Virtualization
+
 |Name|Native|Version|Issues|Notes|
 |--|--|--|--|--|
 |Parallels Desktop|✓|Technical Preview||[Parallels Desktop for Mac with Apple M1 chip](https://www.parallels.com/blogs/parallels-desktop-apple-silicon-mac/)|
 |Docker|⛔️||[Docker fails to launch on Apple Silicon #4733](https://github.com/docker/for-mac/issues/4733)||
 
 ### Frameworks
+
 |Name|Native|Version|Issues|Notes|
 |--|--|--|--|--|
 |Qt|⛔️||[Qt for macOS on Apple Silicon (arm64)](https://bugreports.qt.io/browse/QTBUG-85279)||
