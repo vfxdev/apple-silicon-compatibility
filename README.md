@@ -1,37 +1,90 @@
-## Welcome to GitHub Pages
+# Apple Silicon Compatibility List
+Tracking the status of native Apple Silicon & Rosetta2-compatible builds of some popular **third-party** applications, tools and frameworks.
 
-You can use the [editor on GitHub](https://github.com/vfxdev/does-it-work-on-apple-silicon/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Data is collected from the internet, as I have no Apple Silicon hardware yet to confirm the status (a Mac Mini is on its way).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you encounter any errors or if you'd like to add your favorite app/framework to the list, please open an issue or submit a pull request. Thanks!
 
-### Markdown
+**Last update**: *Nov 13th 2020*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Status Legend
+* ✅ Works, confirmed, public download available
+* ✓ Works, but unconfirmed
+* ⛔️ Not working
+* 🔄 Unknown
 
-```markdown
-Syntax highlighted code block
+## Table of contents
 
-# Header 1
-## Header 2
-### Header 3
+  - [🕸 Browser](#-browser) | [📡 Communication](#-communication) | [🎨 Graphics](#-graphics) | [🎬 Video](#-video) | [🔈 Audio](#-audio) | [🛠 Utilities](#-utilities)
+  - [💻 Developer](#-developer-apps) [🥞 Virtualization](#-virtualization) [🧩 Frameworks](#-frameworks) [🗣 Languages](#-languages)
 
-- Bulleted
-- List
+### 🕸 Browser
+|Name|Native|Rosetta2|Version|Issues|Notes|
+|--|--|--|--|--|--|
+|Chrome|⛔️|🔄|||Depends on Chromium, see [🧩 Frameworks](#-frameworks)|
+|Brave|⛔️|🔄|||Depends on Chromium, see [🧩 Frameworks](#-frameworks)|
+|Firefox|⛔️|🔄||[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)||
 
-1. Numbered
-2. List
+### 📡 Communication
 
-**Bold** and _Italic_ and `Code` text
+|Name|Native|Rosetta2|Version|Issues|Notes|
+|--|--|--|--|--|--|
+|Skype|⛔️|🔄||||
+|Whatsapp|⛔️|🔄|||Depends on Electron, see [🧩 Frameworks](#-frameworks)|
 
-[Link](url) and ![Image](src)
-```
+### 🎨 Graphics
+|Name|Native|Rosetta2|Version|Issues|Notes|
+|--|--|--|--|--|--|
+|Sketch|⛔️|🔄||||
+|Pixelmator Pro|⛔️|✓||||
+|Adobe Photoshop|⛔️|✓||||
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 🎬 Video
+|Name|Native|Rosetta2|Version|Issues|Notes|
+|--|--|--|--|--|--|
+|FFmpeg|✓|🔄|4.3.1||Builds according to [this report](http://www.ffmpeg-archive.org/FFmpeg-on-Apple-Silicon-Success-td4693516.html), but no binary builds available yet.|
+|VLC|⛔️|🔄||||
 
-### Jekyll Themes
+### 🔈 Audio
+|Name|Native|Rosetta2|Version|Issues|Notes|
+|--|--|--|--|--|--|
+|Spotify|⛔️|🔄|||Depends on Electron, see [🧩 Frameworks](#-frameworks)|
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vfxdev/does-it-work-on-apple-silicon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 🛠 Utilities
+|Name|Native|Rosetta2|Version|Issues|Notes|
+|--|--|--|--|--|--|
+|Arq Backup|⛔️|🔄|||||
+|KeepassXC|⛔️|🔄||||
+|Bear|⛔️|🔄||||
+|Notability|⛔️|🔄||||
+|Kindle|⛔️|🔄||||
+|WireGuard|⛔️|🔄||||
 
-### Support or Contact
+### 💻 Developer
+|Name|Native|Rosetta2|Version|Issues|Notes|
+|--|--|--|--|--|--|
+|VS Code|⛔️|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
+|Tower|✓|🔄|6.0||https://www.git-tower.com/blog/tower-mac-6|
+|Insomnia|⛔️|🔄|||Depends on Electron|
+|Homebrew|⛔️|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
+### 🥞 Virtualization
+|Name|Native|Version|Issues|Notes|
+|--|--|--|--|--|
+|Parallels Desktop|✓|Technical Preview||[Parallels Desktop for Mac with Apple M1 chip](https://www.parallels.com/blogs/parallels-desktop-apple-silicon-mac/)|
+|Docker|⛔️||[Docker fails to launch on Apple Silicon #4733](https://github.com/docker/for-mac/issues/4733)||
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 🧩 Frameworks
+|Name|Native|Version|Issues|Notes|
+|--|--|--|--|--|
+|Qt|⛔️||[Qt for macOS on Apple Silicon (arm64)](https://bugreports.qt.io/browse/QTBUG-85279)||
+|Electron|✓|11.0.0-beta.1|[Apple Silicon / macOS Big Sur Support #24319](https://github.com/electron/electron/issues/24319)|[Electron Blog: Apple Silicon Support](https://www.electronjs.org/blog/apple-silicon)|
+|Chromium|⛔️||<ul><li>[Building Chromium on ARM64](https://bugs.chromium.org/p/chromium/issues/detail?id=1103236)</li><li>[Building Chromium for ARM64 (Intel host)](https://bugs.chromium.org/p/chromium/issues/detail?id=1098899)</li><li>[All related Chromium issues](https://bugs.chromium.org/p/chromium/issues/list?q=label%3AMac-BigSur%20OR%20label%3AMac-Arm64&can=2)</li></ul>||
+
+
+### 🗣 Languages
+|Name|Native|Version|Issues|Notes|
+|--|--|--|--|--|
+|Python|✓|3.8|[add support for macos 11.0, arm64, universal2 #319](https://github.com/pypa/packaging/pull/319)||
+|Rust|⛔️||[Tracking issue for supporting macOS on Apple Silicon (ARM) #73908](https://github.com/rust-lang/rust/issues/73908)||
+|R|⛔️|||[Will R Work on Apple Silicon?](https://developer.r-project.org/Blog/public/2020/11/02/will-r-work-on-apple-silicon/index.html)|
+
