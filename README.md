@@ -33,6 +33,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |--|:---:|--|--|--|
 |Skype|🔄||||
 |Whatsapp|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Microsoft Office 2019|✅|2019 Beta||Available in the [Beta Channel](https://insider.office.com/en-us/join/mac) only|
 
 ### Graphics
 
