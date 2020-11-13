@@ -22,8 +22,8 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
-|Chrome|⛔️|🔄|||Depends on Chromium, see [🧩 Frameworks](#-frameworks)|
-|Brave|⛔️|🔄|||Depends on Chromium, see [🧩 Frameworks](#-frameworks)|
+|Chrome|⛔️|🔄|||Depends on Chromium, see [Frameworks](#-frameworks)|
+|Brave|⛔️|🔄|||Depends on Chromium, see [Frameworks](#-frameworks)|
 |Firefox|⛔️|🔄||[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)||
 
 ### Communication
@@ -31,7 +31,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |Skype|⛔️|🔄||||
-|Whatsapp|⛔️|🔄|||Depends on Electron, see [🧩 Frameworks](#-frameworks)|
+|Whatsapp|⛔️|🔄|||Depends on Electron, see [Frameworks](#-frameworks)|
 
 ### Graphics
 
@@ -53,7 +53,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
-|Spotify|⛔️|🔄|||Depends on Electron, see [🧩 Frameworks](#-frameworks)|
+|Spotify|⛔️|🔄|||Depends on Electron, see [Frameworks](#-frameworks)|
 
 ### Utilities
 
@@ -71,7 +71,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |--|--|--|--|--|--|
 |VS Code|⛔️|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
 |[Tower](https://www.git-tower.com/download/mac)|✅||6.0||https://www.git-tower.com/blog/tower-mac-6|
-|Insomnia|⛔️|🔄|||Depends on Electron|
+|Insomnia|⛔️|🔄|||Depends on Electron, see [Frameworks](#-frameworks)|
 |Homebrew|⛔️|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
 
 ### Virtualization
