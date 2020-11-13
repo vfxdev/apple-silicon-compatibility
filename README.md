@@ -70,7 +70,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |VS Code|⛔️|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
-|Tower|✓|🔄|6.0||https://www.git-tower.com/blog/tower-mac-6|
+|Tower|✅||6.0||https://www.git-tower.com/blog/tower-mac-6|
 |Insomnia|⛔️|🔄|||Depends on Electron|
 |Homebrew|⛔️|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
 
