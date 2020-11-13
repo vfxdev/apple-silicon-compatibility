@@ -16,7 +16,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 ## Table of contents
 
   - [Browser](#-browser) | [Communication](#-communication) | [Graphics](#-graphics) | [Video](#-video) | [Audio](#-audio) | [Utilities](#-utilities)
-  - [Developer](#-developer-apps) [Virtualization](#-virtualization) [Frameworks](#-frameworks) [Languages](#-languages)
+  - [Developer](#-developer-apps) | [Virtualization](#-virtualization) | [Frameworks](#-frameworks) | [Languages](#-languages)
 
 ### Browser
 |Name|Native|Rosetta2|Version|Issues|Notes|
