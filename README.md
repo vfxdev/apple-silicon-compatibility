@@ -15,15 +15,15 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 ## Table of contents
 
-  - [Browser](#-browser) | [Communication](#-communication) | [Graphics](#-graphics) | [Video](#-video) | [Audio](#-audio) | [Utilities](#-utilities)
-  - [Developer](#-developer-apps) | [Virtualization](#-virtualization) | [Frameworks](#-frameworks) | [Languages](#-languages)
+  - [Browser](#Browser) | [Communication](#Communication) | [Graphics](#Graphics) | [Video](#Video) | [Audio](#Audio) | [Utilities](#Utilities)
+  - [Developer](#Developer) | [Virtualization](#Virtualization) | [Frameworks](#Frameworks) | [Languages](#Languages)
 
 ### Browser
 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
-|Chrome|⛔️|🔄|||Depends on Chromium, see [Frameworks](#-frameworks)|
-|Brave|⛔️|🔄|||Depends on Chromium, see [Frameworks](#-frameworks)|
+|Chrome|⛔️|🔄|||Depends on Chromium, see [Frameworks](#Frameworks)|
+|Brave|⛔️|🔄|||Depends on Chromium, see [Frameworks](#Frameworks)|
 |Firefox|⛔️|🔄||[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)||
 
 ### Communication
@@ -31,7 +31,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |Skype|⛔️|🔄||||
-|Whatsapp|⛔️|🔄|||Depends on Electron, see [Frameworks](#-frameworks)|
+|Whatsapp|⛔️|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 
 ### Graphics
 
@@ -53,7 +53,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
-|Spotify|⛔️|🔄|||Depends on Electron, see [Frameworks](#-frameworks)|
+|Spotify|⛔️|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 
 ### Utilities
 
@@ -67,11 +67,12 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |WireGuard|⛔️|🔄||||
 
 ### Developer
+
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |VS Code|⛔️|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
 |[Tower](https://www.git-tower.com/download/mac)|✅||6.0||https://www.git-tower.com/blog/tower-mac-6|
-|Insomnia|⛔️|🔄|||Depends on Electron, see [Frameworks](#-frameworks)|
+|Insomnia|⛔️|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 |Homebrew|⛔️|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
 
 ### Virtualization
@@ -91,6 +92,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 
 ### Languages
+
 |Name|Native|Version|Issues|Notes|
 |--|--|--|--|--|
 |Python|✓|3.8|[add support for macos 11.0, arm64, universal2 #319](https://github.com/pypa/packaging/pull/319)||
