@@ -38,7 +38,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |Sketch|⛔️|🔄||||
-|Pixelmator Pro|⛔️|✓||||
+|[Pixelmator Pro](https://www.pixelmator.com/pro/)|✅||2.0+||Will be available 11/19/2020|
 |Adobe Photoshop|⛔️|✓||||
 
 ### Video
