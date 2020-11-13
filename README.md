@@ -41,7 +41,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |--|:---:|--|--|--|
 |Sketch|🔄||||
 |[Pixelmator Pro](https://www.pixelmator.com/pro/)|✅|2.0+||Will be available 11/19/2020|
-|Adobe Photoshop|🔄|✓||||
+|Adobe Photoshop|🔄|||||
 
 ### Video
 
@@ -73,7 +73,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |VS Code|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
-|[Tower](https://www.git-tower.com/download/mac)|✅|6.0||https://www.git-tower.com/blog/tower-mac-6|
+|[Tower](https://www.git-tower.com/download/mac)|✅|6.0+||https://www.git-tower.com/blog/tower-mac-6|
 |Insomnia|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 |Homebrew|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
 
@@ -90,7 +90,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |--|:---:|--|--|--|
 |Qt|⛔️||[Qt for macOS on Apple Silicon (arm64)](https://bugreports.qt.io/browse/QTBUG-85279)||
 |Electron|✓|11.0.0-beta.1|[Apple Silicon / macOS Big Sur Support #24319](https://github.com/electron/electron/issues/24319)|[Electron Blog: Apple Silicon Support](https://www.electronjs.org/blog/apple-silicon)|
-|Chromium|⛔️||<ul><li>[Building Chromium on ARM64](https://bugs.chromium.org/p/chromium/issues/detail?id=1103236)</li><li>[Building Chromium for ARM64 (Intel host)](https://bugs.chromium.org/p/chromium/issues/detail?id=1098899)</li><li>[All related Chromium issues](https://bugs.chromium.org/p/chromium/issues/list?q=label%3AMac-BigSur%20OR%20label%3AMac-Arm64&can=2)</li></ul>||
+|Chromium|✅||<ul><li>[Building Chromium on ARM64](https://bugs.chromium.org/p/chromium/issues/detail?id=1103236)</li><li>[Building Chromium for ARM64 (Intel host)](https://bugs.chromium.org/p/chromium/issues/detail?id=1098899)</li><li>[All related Chromium issues](https://bugs.chromium.org/p/chromium/issues/list?q=label%3AMac-BigSur%20OR%20label%3AMac-Arm64&can=2)</li></ul>|You can now [build an univeral binary on an Intel Mac](https://chromium.googlesource.com/chromium/src.git/+/master/docs/mac_arm64.md)|
 
 
 ### Languages
