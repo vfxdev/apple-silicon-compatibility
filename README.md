@@ -46,6 +46,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Native|Rosetta2|Version|Issues|Notes|
 |--|--|--|--|--|--|
 |FFmpeg|✓|🔄|4.3.1||Builds according to [this report](http://www.ffmpeg-archive.org/FFmpeg-on-Apple-Silicon-Success-td4693516.html), but no binary builds available yet.|
+|[Handbrake](https://github.com/HandBrake/HandBrake/releases)|✅||1.4.0+|||
 |VLC|⛔️|🔄||||
 
 ### Audio
