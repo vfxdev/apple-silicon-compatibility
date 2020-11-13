@@ -8,10 +8,11 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 **Last update**: *Nov 13th 2020*
 
 #### Status Legend
-* ✅ Works, confirmed, public download available
-* ✓ Works, but unconfirmed
-* ⛔️ Not working
-* 🔄 Unknown
+* ✅ Native Apple Silicon build exists, public download available
+* ✓ Native build exists, but not confirmed yet
+* 💎 No native build, but working under Rosetta2
+* ⛔️ No native build, not working under Rosetta2
+* 🔄 No native build, unknown if build works under Rosetta2
 
 ## Table of contents
 
@@ -20,71 +21,71 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 ### Browser
 
-|Name|Native|Rosetta2|Version|Issues|Notes|
-|--|:---:|:---:|--|--|--|
-|Chrome|⛔️|🔄|||Depends on Chromium, see [Frameworks](#Frameworks)|
-|Brave|⛔️|🔄|||Depends on Chromium, see [Frameworks](#Frameworks)|
-|Firefox|⛔️|🔄||[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)||
+|Name|Status|Version|Issues|Notes|
+|--|:---:|--|--|--|
+|Chrome|🔄|||Depends on Chromium, see [Frameworks](#Frameworks)|
+|Brave|🔄|||Depends on Chromium, see [Frameworks](#Frameworks)|
+|Firefox|🔄||[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)||
 
 ### Communication
 
-|Name|Native|Rosetta2|Version|Issues|Notes|
-|--|:---:|:---:|--|--|--|
-|Skype|⛔️|🔄||||
-|Whatsapp|⛔️|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Name|Status|Version|Issues|Notes|
+|--|:---:|--|--|--|
+|Skype|🔄||||
+|Whatsapp|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 
 ### Graphics
 
-|Name|Native|Rosetta2|Version|Issues|Notes|
-|--|:---:|:---:|--|--|--|
-|Sketch|⛔️|🔄||||
-|[Pixelmator Pro](https://www.pixelmator.com/pro/)|✅||2.0+||Will be available 11/19/2020|
-|Adobe Photoshop|⛔️|✓||||
+|Name|Status|Version|Issues|Notes|
+|--|:---:|--|--|--|
+|Sketch|🔄||||
+|[Pixelmator Pro](https://www.pixelmator.com/pro/)|✅|2.0+||Will be available 11/19/2020|
+|Adobe Photoshop|🔄|✓||||
 
 ### Video
 
-|Name|Native|Rosetta2|Version|Issues|Notes|
-|--|:---:|:---:|--|--|--|
-|FFmpeg|✓|🔄|4.3.1||Builds according to [this report](http://www.ffmpeg-archive.org/FFmpeg-on-Apple-Silicon-Success-td4693516.html), but no binary builds available yet.|
-|[Handbrake](https://github.com/HandBrake/HandBrake/releases)|✅||1.4.0+|||
-|VLC|⛔️|🔄||||
+|Name|Status|Version|Issues|Notes|
+|--|:---:|--|--|--|
+|FFmpeg|✓|4.3.1||Builds according to [this report](http://www.ffmpeg-archive.org/FFmpeg-on-Apple-Silicon-Success-td4693516.html), but no binary builds available yet.|
+|[Handbrake](https://github.com/HandBrake/HandBrake/releases)|✅|1.4.0+|||
+|VLC|🔄||||
 
 ### Audio
 
-|Name|Native|Rosetta2|Version|Issues|Notes|
-|--|:---:|:---:|--|--|--|
-|Spotify|⛔️|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Name|Status|Version|Issues|Notes|
+|--|:---:|--|--|--|
+|Spotify|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 
 ### Utilities
 
-|Name|Native|Rosetta2|Version|Issues|Notes|
-|--|:---:|:---:|--|--|--|
-|Arq Backup|⛔️|🔄|||||
-|KeepassXC|⛔️|🔄||||
-|Bear|⛔️|🔄||||
-|Notability|⛔️|🔄||||
-|Kindle|⛔️|🔄||||
-|WireGuard|⛔️|🔄||||
+|Name|Status|Version|Issues|Notes|
+|--|:---:|--|--|--|
+|Arq Backup|🔄|||||
+|KeepassXC|🔄||||
+|Bear|🔄||||
+|Notability|🔄||||
+|Kindle|🔄||||
+|WireGuard|🔄||||
 
 ### Developer
 
-|Name|Native|Rosetta2|Version|Issues|Notes|
-|--|:---:|:---:|--|--|--|
-|VS Code|⛔️|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
-|[Tower](https://www.git-tower.com/download/mac)|✅||6.0||https://www.git-tower.com/blog/tower-mac-6|
-|Insomnia|⛔️|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
-|Homebrew|⛔️|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
+|Name|Status|Version|Issues|Notes|
+|--|:---:|--|--|--|
+|VS Code|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
+|[Tower](https://www.git-tower.com/download/mac)|✅|6.0||https://www.git-tower.com/blog/tower-mac-6|
+|Insomnia|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Homebrew|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
 
 ### Virtualization
 
-|Name|Native|Version|Issues|Notes|
+|Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |Parallels Desktop|✓|Technical Preview||[Parallels Desktop for Mac with Apple M1 chip](https://www.parallels.com/blogs/parallels-desktop-apple-silicon-mac/)|
 |Docker|⛔️||[Docker fails to launch on Apple Silicon #4733](https://github.com/docker/for-mac/issues/4733)||
 
 ### Frameworks
 
-|Name|Native|Version|Issues|Notes|
+|Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |Qt|⛔️||[Qt for macOS on Apple Silicon (arm64)](https://bugreports.qt.io/browse/QTBUG-85279)||
 |Electron|✓|11.0.0-beta.1|[Apple Silicon / macOS Big Sur Support #24319](https://github.com/electron/electron/issues/24319)|[Electron Blog: Apple Silicon Support](https://www.electronjs.org/blog/apple-silicon)|
@@ -93,8 +94,8 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 ### Languages
 
-|Name|:---:|Version|Issues|Notes|
-|--|--|--|--|--|
+|Name|Status|Version|Issues|Notes|
+|--|:---:|--|--|--|
 |Python|✓|3.8|[add support for macos 11.0, arm64, universal2 #319](https://github.com/pypa/packaging/pull/319)||
 |Rust|⛔️||[Tracking issue for supporting macOS on Apple Silicon (ARM) #73908](https://github.com/rust-lang/rust/issues/73908)||
 |R|⛔️|||[Will R Work on Apple Silicon?](https://developer.r-project.org/Blog/public/2020/11/02/will-r-work-on-apple-silicon/index.html)|
