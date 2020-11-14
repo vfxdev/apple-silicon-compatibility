@@ -45,6 +45,8 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Adobe Photoshop|💎|22.x|[Known Issues under Rosetta2](https://helpx.adobe.com/photoshop/kb/photoshop-and-macos-big-sur.html)|Native support expected 2021, according to [Photoshop and Big Sur](https://helpx.adobe.com/photoshop/kb/photoshop-and-macos-big-sur.html)|
 |Adobe Lightroom|💎|4.x||Native support expected December 2020, according to [Lightroom and Big Sur](https://helpx.adobe.com/lightroom-cc/kb/macos-big-sur-compatibility.html)|
 |Adobe Lightroom Classic|💎|11.x||Native support expected 2021, according to [Lightroom Classic and Big Sur](https://helpx.adobe.com/lightroom-classic/kb/macos-big-sur-compatibility.html)|
+|Blender|🔄||[macOS: Support arm64](https://developer.blender.org/T78710)||
+
 
 ### Video
 
@@ -65,10 +67,10 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |Arq Backup|🔄|||||
-|KeepassXC|🔄|||Depends on Qt, see [Frameworks](#Frameworks)|
 |Bear|🔄||||
-|Notability|🔄||||
+|KeepassXC|🔄|||Depends on Qt, see [Frameworks](#Frameworks)|
 |Kindle|🔄||||
+|Notability|🔄||||
 |WireGuard|🔄||||
 
 ### Developer
@@ -78,6 +80,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |VS Code|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
 |[Tower](https://www.git-tower.com/download/mac)|✅|6.0+||https://www.git-tower.com/blog/tower-mac-6|
 |Insomnia|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|[iTerm2](https://iterm2.com/downloads.html)|✅|3.4.0+|||
 |Homebrew|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
 
 ### Virtualization
@@ -100,7 +103,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Python|✓|3.8|[add support for macos 11.0, arm64, universal2 #319](https://github.com/pypa/packaging/pull/319)||
+|Python|⛔️|3.8+|[Support macOS 11 and Apple Silicon #22855](https://github.com/python/cpython/pull/22855)||
 |Rust|⛔️||[Tracking issue for supporting macOS on Apple Silicon (ARM) #73908](https://github.com/rust-lang/rust/issues/73908)||
 |R|⛔️|||[Will R Work on Apple Silicon?](https://developer.r-project.org/Blog/public/2020/11/02/will-r-work-on-apple-silicon/index.html)|
 
