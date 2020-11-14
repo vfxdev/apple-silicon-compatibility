@@ -66,6 +66,8 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
+|1Password|💎||||Works under Rosetta2 according to [Will 1password run on Apple silicon-based Mac](https://1password.community/discussion/114181/will-1password-run-on-apple-silicon-based-mac)|
+|[Alfred](https://www.alfredapp.com/universal/)|✅|4.2.1.b1186+||||
 |Arq Backup|🔄|||||
 |Bear|🔄||||
 |KeepassXC|🔄|||Depends on Qt, see [Frameworks](#Frameworks)|
