@@ -41,7 +41,10 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |--|:---:|--|--|--|
 |Sketch|🔄||||
 |[Pixelmator Pro](https://www.pixelmator.com/pro/)|✅|2.0+||Will be available 11/19/2020|
-|Adobe Photoshop|🔄|||||
+|[Affinity Photo/Designer/Publisher](https://affinity.serif.com/en-us/)|✅|1.8.6+||[Blog post](https://affinity.serif.com/en-us/apple-m1-chip-support/)|
+|Adobe Photoshop|💎|22.x|[Known Issues under Rosetta2](https://helpx.adobe.com/photoshop/kb/photoshop-and-macos-big-sur.html)|Native support expected 2021, according to [Photoshop and Big Sur](https://helpx.adobe.com/photoshop/kb/photoshop-and-macos-big-sur.html)|
+|Adobe Lightroom|💎|4.x||Native support expected December 2020, according to [Lightroom and Big Sur](https://helpx.adobe.com/lightroom-cc/kb/macos-big-sur-compatibility.html)|
+|Adobe Lightroom Classic|💎|11.x||Native support expected 2021, according to [Lightroom Classic and Big Sur](https://helpx.adobe.com/lightroom-classic/kb/macos-big-sur-compatibility.html)|
 
 ### Video
 
