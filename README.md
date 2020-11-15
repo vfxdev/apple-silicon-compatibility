@@ -84,6 +84,10 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Insomnia|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 |[iTerm2](https://iterm2.com/downloads.html)|✅|3.4.0+|||
 |Homebrew|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
+|Unity Player|✅|2020.2.0a21+|Status of all the core formulae: [Unity on Apple silicon and Big Sur: Known issues and workarounds](https://forum.unity.com/threads/unity-on-apple-silicon-and-big-sur-known-issues-and-workarounds.929220/)||
+|Unity Editor|💎|2020.2.0b12+|see Unity Player||
+
+2020.2.0a21
 
 ### Virtualization
 
@@ -105,7 +109,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Python|⛔️|3.8+|[Support macOS 11 and Apple Silicon #22855](https://github.com/python/cpython/pull/22855)||
+|Python|✅|3.8+|[Support macOS 11 and Apple Silicon #22855](https://github.com/python/cpython/pull/22855)||
 |Rust|⛔️||[Tracking issue for supporting macOS on Apple Silicon (ARM) #73908](https://github.com/rust-lang/rust/issues/73908)||
 |R|⛔️|||[Will R Work on Apple Silicon?](https://developer.r-project.org/Blog/public/2020/11/02/will-r-work-on-apple-silicon/index.html)|
 
