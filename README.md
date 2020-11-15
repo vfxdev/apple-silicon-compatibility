@@ -23,9 +23,9 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Chrome|🔄|||Depends on Chromium, see [Frameworks](#Frameworks)|
+|Chrome/Chromium|💎|Beta 87|[Building Chromium on ARM64](https://bugs.chromium.org/p/chromium/issues/detail?id=1103236)<br>[Building Chromium for ARM64 (Intel host)](https://bugs.chromium.org/p/chromium/issues/detail?id=1098899)<br>[All related Chromium issues](https://bugs.chromium.org/p/chromium/issues/list?q=label%3AMac-BigSur%20OR%20label%3AMac-Arm64&can=2)|According to [this post](https://developer.apple.com/forums/thread/657657), Chrome beta is working, presumably under Rosetta (to be confirmed). And you can now [build an universal binary on an Intel Mac](https://chromium.googlesource.com/chromium/src.git/+/master/docs/mac_arm64.md). It's unclear if this will make it into release 87.|
 |Brave|🔄|||Depends on Chromium, see [Frameworks](#Frameworks)|
-|Firefox|🔄||[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)||
+|Firefox|✅|Nightly|[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)|Nightly build is now a universal binary according to [this tweet](https://twitter.com/gcpascutto/status/1327153863598755840).|
 
 ### Communication
 
@@ -102,8 +102,6 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |--|:---:|--|--|--|
 |Qt|⛔️||[Qt for macOS on Apple Silicon (arm64)](https://bugreports.qt.io/browse/QTBUG-85279)<br>[Qt issues on Rosetta2](https://bugreports.qt.io/browse/QTBUG-86405)||
 |Electron|✓|11.0.0-beta.1|[Apple Silicon / macOS Big Sur Support #24319](https://github.com/electron/electron/issues/24319)|[Electron Blog: Apple Silicon Support](https://www.electronjs.org/blog/apple-silicon)|
-|Chromium|✅||[Building Chromium on ARM64](https://bugs.chromium.org/p/chromium/issues/detail?id=1103236)<br>[Building Chromium for ARM64 (Intel host)](https://bugs.chromium.org/p/chromium/issues/detail?id=1098899)<br>[All related Chromium issues](https://bugs.chromium.org/p/chromium/issues/list?q=label%3AMac-BigSur%20OR%20label%3AMac-Arm64&can=2)|You can now [build an universal binary on an Intel Mac](https://chromium.googlesource.com/chromium/src.git/+/master/docs/mac_arm64.md)|
-
 
 ### Languages
 
