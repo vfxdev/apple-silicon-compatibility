@@ -100,7 +100,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Qt|⛔️||[Qt for macOS on Apple Silicon (arm64)](https://bugreports.qt.io/browse/QTBUG-85279)<br>[Qt issues on Rosetta2](https://bugreports.qt.io/browse/QTBUG-86405)|QtWebEngine [doesn't work on Rosetta2](https://bugreports.qt.io/browse/QTBUG-86406) due to dependency on Chromium. A [developer reports](https://bugreports.qt.io/browse/QTBUG-85279) successful native ARM build of Qt 5.12.7 by applying latest patches.|
+|Qt|⛔️||[Qt for macOS on Apple Silicon (arm64)](https://bugreports.qt.io/browse/QTBUG-85279)<br>[Qt issues on Rosetta2](https://bugreports.qt.io/browse/QTBUG-86405)|QtWebEngine [doesn't work on Rosetta2](https://bugreports.qt.io/browse/QTBUG-86406) due to dependency on Chromium. A [developer reports](https://bugreports.qt.io/browse/QTBUG-85279?focusedCommentId=529211&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-529211) successful native ARM build of Qt 5.12.7 by applying latest patches.|
 |Electron|✓|11.0.0-beta.1|[Apple Silicon / macOS Big Sur Support #24319](https://github.com/electron/electron/issues/24319)|[Electron Blog: Apple Silicon Support](https://www.electronjs.org/blog/apple-silicon)|
 
 ### Languages
