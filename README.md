@@ -31,15 +31,17 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Skype|🔄||||
+|Skype|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 |Whatsapp|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Discord|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Telegram|🔄|||Native MacOS client, should work with Rosetta2, but unconfirmed|
 |Microsoft Office 2019|✅|2019 Beta||Available in the [Beta Channel](https://insider.office.com/en-us/join/mac) only|
 
 ### Graphics
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Sketch|🔄||||
+|[Sketch](https://www.sketch.com/beta/)|✅|70 beta+|||
 |[Pixelmator Pro](https://www.pixelmator.com/pro/)|✅|2.0+||Will be available 11/19/2020|
 |[Affinity Photo/Designer/Publisher](https://affinity.serif.com/en-us/)|✅|1.8.6+||[Blog post](https://affinity.serif.com/en-us/apple-m1-chip-support/)|
 |Adobe Photoshop|💎|22.x|[Known Issues under Rosetta2](https://helpx.adobe.com/photoshop/kb/photoshop-and-macos-big-sur.html)|Native support expected 2021, according to [Photoshop and Big Sur](https://helpx.adobe.com/photoshop/kb/photoshop-and-macos-big-sur.html)|
