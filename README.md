@@ -63,7 +63,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Spotify|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Spotify|💎|||Depends on Electron, see [Frameworks](#Frameworks)|
 
 ### Utilities
 
@@ -71,7 +71,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |--|:---:|--|--|--|
 |1Password|💎|||Works under Rosetta2 according to [Will 1password run on Apple silicon-based Mac](https://1password.community/discussion/114181/will-1password-run-on-apple-silicon-based-mac)|
 |[Alfred](https://www.alfredapp.com/universal/)|✅|4.2.1.b1186+||||
-|Arq Backup|🔄|||||
+|[Arq Backup](https://www.arqbackup.com/download/)|💎|5.x, 7.x||Both versions work under Rosetta2, according to developer.|
 |Bear|🔄||||
 |KeepassXC|🔄|||Depends on Qt, see [Frameworks](#Frameworks)|
 |Kindle|🔄||||
