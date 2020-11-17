@@ -82,7 +82,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|VS Code|🔄||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)||
+|[VS Code](https://code.visualstudio.com/insiders/)|✓||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)|Insiders build available, functionality unconfirmed.|
 |[Tower](https://www.git-tower.com/download/mac)|✅|6.0+||https://www.git-tower.com/blog/tower-mac-6|
 |Insomnia|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
 |[iTerm2](https://iterm2.com/downloads.html)|✅|3.4.0+|||
