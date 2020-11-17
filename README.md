@@ -54,6 +54,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
+|[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)|✅|17.1 Beta 1|||
 |FFmpeg|✓|4.3.1||Builds according to [this report](http://www.ffmpeg-archive.org/FFmpeg-on-Apple-Silicon-Success-td4693516.html), but no binary builds available yet.|
 |[Handbrake](https://github.com/HandBrake/HandBrake/releases)|✅|1.4.0+|||
 |VLC|🔄||||
@@ -96,7 +97,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |Parallels Desktop|✓|Technical Preview||[Parallels Desktop for Mac with Apple M1 chip](https://www.parallels.com/blogs/parallels-desktop-apple-silicon-mac/)|
-|Docker|⛔️||[Docker fails to launch on Apple Silicon #4733](https://github.com/docker/for-mac/issues/4733)||
+|Docker|⛔️||[Docker fails to launch on Apple Silicon #4733](https://github.com/docker/for-mac/issues/4733)|[Apple Silicon M1 Chips and Docker](https://www.docker.com/blog/apple-silicon-m1-chips-and-docker/?utm_campaign=IT+Pro&utm_content=1605547520&utm_medium=social&utm_source=Organic). Depends on Electron and Go, see [Frameworks](#Frameworks)|
 
 ### Frameworks
 
@@ -110,6 +111,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |Python|✅|3.8+|[Support macOS 11 and Apple Silicon #22855](https://github.com/python/cpython/pull/22855)||
+|Go|⛔️||[runtime: tracking bug for ARM-based macOS and GOOS/GOARCH values #38485](https://github.com/golang/go/issues/38485)||
 |Rust|⛔️||[Tracking issue for supporting macOS on Apple Silicon (ARM) #73908](https://github.com/rust-lang/rust/issues/73908)||
 |R|⛔️|||[Will R Work on Apple Silicon?](https://developer.r-project.org/Blog/public/2020/11/02/will-r-work-on-apple-silicon/index.html)|
 
