@@ -1,11 +1,11 @@
 # Apple Silicon Compatibility List
 Tracking the status of native Apple Silicon & Rosetta2-compatible builds of some popular **third-party** applications, tools and frameworks.
 
-Data is collected from the internet, as I have no Apple Silicon hardware yet to confirm the status (a Mac Mini is on its way).
+~~Data is collected from the internet, as I have no Apple Silicon hardware yet to confirm the status (a Mac Mini is on its way).~~ My Mac Mini has arrived and I've started to add first-hand confirmations to the list.
 
 If you encounter any errors or if you'd like to add your favorite app/framework to the list, please open an issue or submit a pull request. Thanks!
 
-**Last update**: *Nov 13th 2020*
+**Last update**: *Nov 24th 2020*
 
 #### Status Legend
 * ✅ Native Apple Silicon build exists, public download available
@@ -24,17 +24,17 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |[Chrome](https://www.google.com/chrome/)/Chromium|✅|87|[Building Chromium on ARM64](https://bugs.chromium.org/p/chromium/issues/detail?id=1103236)<br>[Building Chromium for ARM64 (Intel host)](https://bugs.chromium.org/p/chromium/issues/detail?id=1098899)<br>[All related Chromium issues](https://bugs.chromium.org/p/chromium/issues/list?q=label%3AMac-BigSur%20OR%20label%3AMac-Arm64&can=2)||
-|Brave|🔄|||Depends on Chromium|
+|Brave|💎||[arm64 support for macOS (Apple Silicon, M1 CPU) #12819](https://github.com/brave/brave-browser/issues/12819)|Depends on Chromium|
 |Firefox|✅|Nightly|[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)|Nightly build is now a universal binary according to [this tweet](https://twitter.com/gcpascutto/status/1327153863598755840).|
 
 ### Communication
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Skype|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
-|Whatsapp|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
-|Discord|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
-|Telegram|🔄|||Native MacOS client, should work with Rosetta2, but unconfirmed|
+|Skype|💎|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Whatsapp|💎|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Discord|💎|||Depends on Electron, see [Frameworks](#Frameworks)|
+|Telegram|💎|||Native MacOS client, should work with Rosetta2, but unconfirmed|
 |Microsoft Office 2019|✅|2019 Beta||Available in the [Beta Channel](https://insider.office.com/en-us/join/mac) only|
 
 ### Graphics
@@ -72,21 +72,21 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |1Password|💎|||Works under Rosetta2 according to [Will 1password run on Apple silicon-based Mac](https://1password.community/discussion/114181/will-1password-run-on-apple-silicon-based-mac)|
 |[Alfred](https://www.alfredapp.com/universal/)|✅|4.2.1.b1186+||||
 |[Arq Backup](https://www.arqbackup.com/download/)|💎|5.x, 7.x||Both versions work under Rosetta2, according to developer.|
-|Bear|🔄||||
-|KeepassXC|🔄|||Depends on Qt, see [Frameworks](#Frameworks)|
-|Kindle|🔄||||
-|Notability|🔄||||
-|WireGuard|🔄||||
+|Bear|✅|1.8.2|||
+|KeepassXC|💎|||Depends on Qt, see [Frameworks](#Frameworks)|
+|Kindle|💎|||via App Store|
+|Notability|💎|||via App Store|
+|WireGuard|💎||||
 
 ### Developer
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|[VS Code](https://code.visualstudio.com/insiders/)|✓||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)|Insiders build available, functionality unconfirmed.|
-|[Tower](https://www.git-tower.com/download/mac)|✅|6.0+||https://www.git-tower.com/blog/tower-mac-6|
-|Insomnia|🔄|||Depends on Electron, see [Frameworks](#Frameworks)|
+|[VS Code](https://code.visualstudio.com/insiders/)|✅||[Stablize apple silicon exploration builds #106770](https://github.com/microsoft/vscode/issues/106770)|Exploration build linked in issue works great.|
+|[Tower](https://www.git-tower.com/download/mac)|✅|6.0+||https://www.git-tower.com/blog/tower-mac-6, make sure you have Rosetta2 installed, otherwise it will crash.|
+|Insomnia|💎|2020.4.2||Depends on Electron, see [Frameworks](#Frameworks)|
 |[iTerm2](https://iterm2.com/downloads.html)|✅|3.4.0+|||
-|Homebrew|🔄||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)||
+|Homebrew|⛔️||Status of all the core formulae: [macOS 11.0 Big Sur compatibility on Apple Silicon #7857](https://github.com/Homebrew/brew/issues/7857)|Most of it works, but still lot of formulae are failing. Will not be fully compatible for months, according to devs.|
 |Unity Player|✅|2020.2.0a21+|Status of all the core formulae: [Unity on Apple silicon and Big Sur: Known issues and workarounds](https://forum.unity.com/threads/unity-on-apple-silicon-and-big-sur-known-issues-and-workarounds.929220/)||
 |Unity Editor|💎|2020.2.0b12+|see Unity Player||
 
@@ -104,13 +104,13 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |Qt|⛔️||[Qt for macOS on Apple Silicon (arm64)](https://bugreports.qt.io/browse/QTBUG-85279)<br>[Qt issues on Rosetta2](https://bugreports.qt.io/browse/QTBUG-86405)|QtWebEngine [doesn't work on Rosetta2](https://bugreports.qt.io/browse/QTBUG-86406) due to dependency on Chromium. A [developer reports](https://bugreports.qt.io/browse/QTBUG-85279?focusedCommentId=529211&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-529211) successful native ARM build of Qt 5.12.7 by applying latest patches.|
-|Electron|✓|11.0.0-beta.1|[Apple Silicon / macOS Big Sur Support #24319](https://github.com/electron/electron/issues/24319)|[Electron Blog: Apple Silicon Support](https://www.electronjs.org/blog/apple-silicon)|
+|Electron|✅|11.0|[Apple Silicon / macOS Big Sur Support #24319](https://github.com/electron/electron/issues/24319)|[Electron Blog: Apple Silicon Support](https://www.electronjs.org/blog/apple-silicon)|
 
 ### Languages
 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
-|Python|✅|3.8+|[Support macOS 11 and Apple Silicon #22855](https://github.com/python/cpython/pull/22855)||
+|Python|✅|3.8+|[Support macOS 11 and Apple Silicon #22855](https://github.com/python/cpython/pull/22855)|3.9 is also native via Homebrew|
 |Go|⛔️||[runtime: tracking bug for ARM-based macOS and GOOS/GOARCH values #38485](https://github.com/golang/go/issues/38485)||
 |Rust|⛔️||[Tracking issue for supporting macOS on Apple Silicon (ARM) #73908](https://github.com/rust-lang/rust/issues/73908)||
 |R|⛔️|||[Will R Work on Apple Silicon?](https://developer.r-project.org/Blog/public/2020/11/02/will-r-work-on-apple-silicon/index.html)|
