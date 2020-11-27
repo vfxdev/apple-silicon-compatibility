@@ -5,7 +5,7 @@ Tracking the status of native Apple Silicon & Rosetta2-compatible builds of some
 
 If you encounter any errors or if you'd like to add your favorite app/framework to the list, please open an issue or submit a pull request. Thanks!
 
-**Last update**: *Nov 24th 2020*
+**Last update**: *Nov 27th 2020*
 
 #### Status Legend
 * ✅ Native Apple Silicon build exists, public download available
@@ -45,7 +45,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |[Sketch](https://www.sketch.com/beta/)|✅|70 beta+||69 and earlier work on Rosetta2|
 |[Pixelmator Pro](https://www.pixelmator.com/pro/)|✅|2.0+||Will be available 11/19/2020|
 |[Affinity Photo/Designer/Publisher](https://affinity.serif.com/en-us/)|✅|1.8.6+||[Blog post](https://affinity.serif.com/en-us/apple-m1-chip-support/)|
-|[Adobe Photoshop](https://feedback.photoshop.com/conversations/photoshop-beta/photoshop-for-mac-arm-is-here/5fb359d3ca9d527a59c4677e)|✅|ARM Beta|[Known Issues under Rosetta2](https://helpx.adobe.com/photoshop/kb/photoshop-and-macos-big-sur.html)|Native beta released 11/17/2020|
+|[Adobe Photoshop](https://feedback.photoshop.com/conversations/photoshop-beta/photoshop-for-mac-arm-is-here/5fb359d3ca9d527a59c4677e)|✅|ARM Beta|[Known Issues under Rosetta2](https://helpx.adobe.com/photoshop/kb/photoshop-and-macos-big-sur.html)|Native beta released 11/17/2020, lots of crashes|
 |Adobe Lightroom|💎|4.x||Native support expected December 2020, according to [Lightroom and Big Sur](https://helpx.adobe.com/lightroom-cc/kb/macos-big-sur-compatibility.html)|
 |Adobe Lightroom Classic|💎|11.x||Native support expected 2021, according to [Lightroom Classic and Big Sur](https://helpx.adobe.com/lightroom-classic/kb/macos-big-sur-compatibility.html)|
 |Blender|🔄||[macOS: Support arm64](https://developer.blender.org/T78710)||
