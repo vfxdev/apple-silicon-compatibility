@@ -24,7 +24,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |Name|Status|Version|Issues|Notes|
 |--|:---:|--|--|--|
 |[Chrome](https://www.google.com/chrome/)/Chromium|✅|87|[Building Chromium on ARM64](https://bugs.chromium.org/p/chromium/issues/detail?id=1103236)<br>[Building Chromium for ARM64 (Intel host)](https://bugs.chromium.org/p/chromium/issues/detail?id=1098899)<br>[All related Chromium issues](https://bugs.chromium.org/p/chromium/issues/list?q=label%3AMac-BigSur%20OR%20label%3AMac-Arm64&can=2)||
-|Brave|💎||[arm64 support for macOS (Apple Silicon, M1 CPU) #12819](https://github.com/brave/brave-browser/issues/12819)|Depends on Chromium|
+|[Brave](https://github.com/brave/brave-browser/releases)|✅|1.19.36|[arm64 support for macOS (Apple Silicon, M1 CPU) #12819](https://github.com/brave/brave-browser/issues/12819)|Brave Nightly is now native|
 |Firefox|✅|Nightly|[[meta] Support AArch64 on Desktop macOS (Apple Silicon)](https://bugzilla.mozilla.org/show_bug.cgi?id=1648496)|Nightly build is now a universal binary according to [this tweet](https://twitter.com/gcpascutto/status/1327153863598755840).|
 
 ### Communication
@@ -77,7 +77,7 @@ If you encounter any errors or if you'd like to add your favorite app/framework 
 |KeepassXC|💎|||Depends on Qt, see [Frameworks](#Frameworks)|
 |Kindle|💎|||via App Store|
 |Notability|💎|||via App Store|
-|WireGuard|💎||||
+|WireGuard|💎|||via App Store|
 
 ### Developer
 
